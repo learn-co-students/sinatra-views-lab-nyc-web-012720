@@ -1,0 +1,8 @@
+require 'date'
+
+<!DOCTYPE html>
+<html>
+<%= t = DateTime.now %>
+<h1>Today</h1>
+    <p>The date is <%= Date.today.strftime("%A") %>, <%= Date.today.strftime("%B") %> <%= t.day %>, <%= t.year %></p>
+</html>
